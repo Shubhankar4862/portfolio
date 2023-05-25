@@ -7,6 +7,7 @@ import iconsweb from "../public/iconsweb.png";
 import consulting from "../public/nnetworks.png";
 import Image from "next/image";
 import web1 from "../public/vscode.png";
+import git from "../public/icons8-github.svg";
 import web2 from "../public/nextjs.png";
 import web3 from "../public/astrojs.png";
 import web4 from "../public/web3.png";
@@ -55,6 +56,15 @@ export default function Home() {
               Bag Packing for providing services for programming and Software
               needs.
             </p>
+            <a href="https://github.com/Shubhankar4862">
+              <Image
+                width="100"
+                className="relative mx-auto"
+                height="100"
+                src="https://img.icons8.com/ios-filled/128/github.png"
+                alt="github"
+              />
+            </a>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400"></div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
               <Image src={deved} layout="fill" alt="Image" objectFit="cover" />
@@ -141,6 +151,20 @@ export default function Home() {
               <p className="text-gray-800 py-1">Tensorflow + Js version</p>
             </div>
           </div>
+          <div className="flex rounded-md text-center my-auto justify-center align-center text-3xl bg-[#e5e5e5]">
+            <p className="pt-9">
+              Checkout My Projects at &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{" "}
+            </p>{" "}
+            <a href="https://github.com/Shubhankar4862">
+              <Image
+                width="100"
+                className="relative mx-auto"
+                height="100"
+                src="https://img.icons8.com/ios-filled/128/github.png"
+                alt="github"
+              />
+            </a>
+          </div>
         </section>
         <section className="py-10">
           <div>
@@ -219,6 +243,10 @@ export default function Home() {
                 src={web6}
                 alt="Image"
               />
+            </div>
+            <div className="flex justify-center rounded-md p-4 align-center text-xl bg-[#dcfce7]">
+              And Check out my blog materials / personal stories maybe you would
+              like them Just below here ...
             </div>
             <div className="h-[7vh] w-[80vw] text-center p-4 bg-[#d4d4d8] rounded-md text-2xl text-[#0a0a0a] font-thin">
               <a
