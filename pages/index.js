@@ -250,11 +250,11 @@ export default function Home() {
             </div>
             <div className="h-[7vh] w-[80vw] text-center p-4 bg-[#d4d4d8] rounded-md text-2xl text-[#0a0a0a] font-thin">
               <a
-                href="http://https://somethingsomething.com"
+                href="https://site-steel-phi.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://somethingsomething.com
+                https://site-steel-phi.vercel.app/
               </a>
             </div>
           </div>
